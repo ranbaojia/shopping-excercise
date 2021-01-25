@@ -51,9 +51,11 @@
 - git push -u origin master  第一次提交到远程
 - git push 将本地仓库提交到远程仓库
 - -u origin master 设置默认的提交地址和分支
-### 陪sshkey就不用每次输入用户名和密码
+### 配sshkey就不用每次输入用户名和密码
 ### 删除原先远程路径
 - $ git remote rm origin
+### 获取远程仓库的数据
 ### 我修改了一下
-- 。。。。。
+- 。。。。。.
 - 记得每天工作把远程和本地的修改同步一下
+### 我这是test分支内容
