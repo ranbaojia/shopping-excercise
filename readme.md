@@ -42,3 +42,9 @@
 - git reset --hard HEAD^回退到上一个版本
 - git reset --hard 版本号
 - 修改变动
+### 创建远程仓库
+- 进入github官网
+### 将本地仓库和远程仓库关联
+- git remote add origin 你的远程仓库地址
+### 将本地仓库提交到远程仓库
+- git push -u origin main
