@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./addfont/iconfont.css">
+    <script src="./js/jquery-1.8.3.js"></script>
+    <style>
+        ul li {
+            list-style: none;
+        }
+        
+        .wrap {
+            margin: 15px auto;
+            width: 820px;
+        }
+        
+        .wrap .head_nav {
+            width: 800px;
+            height: 36px;
+            line-height: 36px;
+            background-color: #eee;
+            padding: 0 10px;
+        }
+        
+        .head_nav span {
+            color: #555;
+            font-size: 14px;
+        }
+        
+        .head_nav .he_title {
+            margin: 0 0 0 150px;
+        }
+        
+        .head_nav .he_price {
+            margin: 0 0 0 165px;
+        }
+        
+        .head_nav .he_num {
+            margin: 0 0 0 80px;
+        }
+        
+        .head_nav .he_all {
+            margin: 0 0 0 80px;
+        }
+        
+        .head_nav .he_op {
+            margin: 0 0 0 85px;
+        }
+        
+        .wrap .wrap_list {
+            width: 820px;
+            overflow: hidden;
+        }
+        
+        .wrap_list li {
+            width: 800px;
+            height: 80px;
+            line-height: 80px;
+            background-color: #eee;
+            padding: 0 10px;
+            margin: 10px 0;
+        }
+        
+        .wrap_list li a {
+            position: relative;
+            display: inline-block;
+        }
+        
+        .wrap_list li img {
+            width: 70px;
+            height: 70px;
+            vertical-align: middle;
+        }
+        
+        .wrap_list .title {
+            display: inline-block;
+            width: 260px;
+            height: 20px;
+            line-height: 25px;
+            margin: 0 10px;
+        }
+        
+        .wrap_list .sin_price {
+            margin: 0 0 0 18px;
+            color: #ff2200;
+        }
+        
+        .wrap_list .num_wrap {
+            display: inline-block;
+            margin: 0 0 0 40px;
+            user-select: none;
+        }
+        
+        .wrap_list .num_wrap .plus {
+            width: 20px;
+            display: inline-block;
+            color: #333;
+            cursor: pointer;
+        }
+        
+        .wrap_list .num_wrap .minus {
+            width: 20px;
+            display: inline-block;
+            color: #333;
+            cursor: pointer;
+        }
+        
+        .wrap_list .num {
+            margin: 0 5px;
+            width: 35px;
+            height: 20px;
+            line-height: 20px;
+            text-align: center;
+            outline: none;
+            color: #ff2200;
+        }
+        
+        .wrap_list .all_price {
+            display: inline-block;
+            margin: 0 0 0 50px;
+            width: 50px;
+            color: #ff2200;
+        }
+        
+        .wrap_list .del {
+            margin: 0 0 0 70px;
+            cursor: pointer;
+        }
+        
+        .wrap_list .del:hover {
+            text-decoration: underline;
+        }
+        
+        .wrap_list .warn {
+            display: inline-block;
+            font-size: 20px;
+            color: #ff2200;
+            margin: 20px 250px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="header"></div>
+    <div class="wrap">
+        <div class="head_nav">
+            <input type="checkbox">
+            <span>全选</span>
+            <span class="he_title">商品
+            </span>
+            <span class="he_price">单价</span>
+            <span class="he_num">数量</span>
+            <span class="he_all">总价</span>
+            <span class="he_op">操作</span>
+        </div>
+        <ul class="wrap_list">
+            <!-- <li class="clearfix">
+                <input type="checkbox">
+                <a href=""><img src="${item.imgurl}" alt=""></a>
+                <span class="title">${item.title}</span>
+                <span class="sin_price" >${item.price}</span>
+                <div class="num_wrap"> <span class="iconfont plus">&#xe6aa;</span>
+                <input type="text" class="num" data-id="${item.id}" value="${obj.num}"><span class="iconfont minus">&#xe6a9;</span>
+                </div>
+                <span class="all_price"></span>
+                <span class="del" >删除</span>
+                </li> -->
+            <!-- <span class="warn">亲！您还没有添加商品，再看看吧！</span> -->
+        </ul>
+    </div>
+    <script>
+    
+        var $header = $('#header');
+        $header.load('./common/header.html');
+    </script>
+    <!-- <script src="./js/index.js"></script> -->
+</body>
+
+<script src="./js/shoplist.js"></script>
+
+</html>
