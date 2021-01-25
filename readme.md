@@ -31,9 +31,10 @@
 - 将代码从暂存区提交到本地仓库
 - git status 查看状态：工作区是干净的，没有任何东西需要提交
   ### 关键操作
-- git init ->创建版本库
+- git init ->创建版本库   第一次操作，以后不用
 - git add文件名 ->添加到暂存区
 - git commit -m'提交注释'->提交到本地仓库
+- git pull  从远程获取最新版本并merge到本地
 - git status 查看暂存区和工作区状态
 ### 查看日志
 - git log
@@ -51,5 +52,8 @@
 - git push 将本地仓库提交到远程仓库
 - -u origin master 设置默认的提交地址和分支
 ### 陪sshkey就不用每次输入用户名和密码
-删除原先远程路径
-$ git remote rm origin
+### 删除原先远程路径
+- $ git remote rm origin
+### 我修改了一下
+- 。。。。。
+- 记得每天工作把远程和本地的修改同步一下
