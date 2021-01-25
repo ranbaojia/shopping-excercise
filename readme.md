@@ -47,4 +47,6 @@
 ### 将本地仓库和远程仓库关联
 - git remote add origin 你的远程仓库地址
 ### 将本地仓库提交到远程仓库
-- git push -u origin main
+- git push -u origin master  第一次提交到远程
+- git push 将本地仓库提交到远程仓库
+- -u origin master 设置默认的提交地址和分支
